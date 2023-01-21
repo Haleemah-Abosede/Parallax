@@ -1,0 +1,82 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "lato" sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: dimgrey;
+}
+
+.img1, .img2, .img3{
+    background-attachment: fixed;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.img1{
+    background-image: url(lighthouse.jpg);
+    min-height: 100%;
+    background-size:cover;
+
+}
+
+.img2{
+    background-image: url(jungle\ trail.jpg);
+    min-height: 100%;
+    background-size: cover;
+}
+
+.img3{
+    background-image: url(moss\ on\ rocks.jpg);
+    min-height: 100%;
+    background-size: cover;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+    
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    color: black;
+    font-size: 27px;
+    letter-spacing:8px;
+    line-height: 2.8em;
+    text-transform: uppercase;
+    width: 100%;
+    text-align:center;
+}
+
+.ptext .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.ptext .border-light{
+    background-color: transparent;
+}
+
+@media(max-width:568px){
+.img1, .img2, .img3{
+    background-attachment: scroll;
+}
+}
